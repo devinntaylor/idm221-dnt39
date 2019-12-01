@@ -109,20 +109,22 @@ h4 {
 }
 
 .nav-list {
+    display: inline-block;
+    text-align: center;
     list-style-type: none;
     margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: #102d63;
-    max-width: 400px;
+    width: 400px;
 }
     
 li {
-    float: left;
+    display: inline-block;
 }
     
 li a {
-    display: block;
+    display: inline-block;
     margin-left: 1.5px;
     text-align: center;
     color: white;
@@ -164,3 +166,4 @@ li a:hover {
 .portfolio-item p {
     color: #102d63;
 }
+
