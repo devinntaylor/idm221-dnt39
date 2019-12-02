@@ -109,14 +109,14 @@ h4 {
 }
 
 .nav-list {
-    display: inline-block;
+    display: block;
     text-align: center;
     list-style-type: none;
     margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: #102d63;
-    width: 400px;
+    max-width: 400px;
 }
     
 li {
@@ -130,7 +130,7 @@ li a {
     color: white;
     padding: 14px 10px 14px 10px;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 li a:hover {
